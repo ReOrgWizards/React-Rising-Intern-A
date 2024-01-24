@@ -3,22 +3,6 @@
 @tailwind utilities;
 
 :root {
-  --primary-color-100: #d2dbfb;
-  --primary-color-200: #9ab3f6;
-  --primary-color-300: #588cf1;
-  --primary-color-400: #2d68c4;
-  --primary-color-500: #1c4688;
-  --primary-color-600: #0d2751;
-  --primary-color-700: #0d2751;
-
-  --secondary-color-100: #dbdcde;
-  --secondary-color-200: #b3b4b9;
-  --secondary-color-300: #8c8e95;
-  --secondary-color-400: #686a70;
-  --secondary-color-500: #46484c;
-  --secondary-color-600: #27282b;
-  --secondary-color-700: #101112;
-
   --border-radius-20: 20px;
   --border-radius-16: 16px;
   --btn-border-radius: 360px;
