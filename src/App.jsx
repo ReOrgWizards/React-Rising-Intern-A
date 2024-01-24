@@ -1,11 +1,14 @@
+import Header from "./components/NavBar/Header";
 import MasterBanner from "./components/banner/MasterBanner";
-import NavBar from "./components/NavBar/Header";
+// import NavBar from "./components/NavBar/Header";
+import ProgressCard from "./components/Progress-content-card/ProgressCard";
 
 function App() {
   return (
     <>
-      <NavBar />
+      <Header />
       <MasterBanner />
+      <ProgressCard />
     </>
   );
 }

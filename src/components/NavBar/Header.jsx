@@ -20,15 +20,15 @@ const Header = () => {
       </div>
       <div className="inline-flex items-center justify-end gap-20 ">
         <div className="flex items-center justify-end gap-10">
-          <div className="uppercase-italic text-center text-base font-semibold text-blue-700 ">
+          <div className="text-center text-base font-semibold uppercase text-blue-700 ">
             Home
           </div>
 
-          <div className="uppercase-italic text-center text-base font-semibold text-blue-700 ">
+          <div className="text-center text-base font-semibold uppercase text-blue-700 ">
             About Us
           </div>
 
-          <div className="uppercase-italic text-center text-base font-semibold text-blue-700 ">
+          <div className="text-center text-base font-semibold uppercase text-blue-700 ">
             Services
           </div>
         </div>
