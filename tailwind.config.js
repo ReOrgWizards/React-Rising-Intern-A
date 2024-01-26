@@ -22,6 +22,11 @@ export default {
         700: "#101112",
       },
     },
+
+    backgroundImage: {
+      simpleGradient: "linear-gradient( #ffffff 50%,#2D68C4 50%)",
+      oppSimpleGradient: "linear-gradient( #2D68C4 50%,#ffffff 50%)",
+    },
     extend: {
       fontFamily: {
         lato: ["Lato", "Sans-serif"],

@@ -2,7 +2,7 @@ import React from "react";
 import logoIcon from "../../assets/icons/logo_pro.svg";
 const Header = () => {
   return (
-    <div className="inline-flex h-full w-full items-center justify-between border-b-[1px] px-8 py-2">
+    <section className="inline-flex h-full w-full items-center justify-between border-b-[1px] px-8 py-2">
       <div className="flex items-center justify-between">
         <div className="w-half h-12 w-12 bg-blue-400">
           <img src={logoIcon} alt="logo" />
@@ -34,12 +34,12 @@ const Header = () => {
         </div>
 
         <div className="flex-end flex gap-2 rounded-3xl bg-blue-400 px-6 py-4">
-          <div className="text-grey-100 text-center font-lato font-bold ">
+          <div className="text-center font-lato font-bold text-grey-100 ">
             Contact
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

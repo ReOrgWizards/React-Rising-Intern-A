@@ -1,16 +1,10 @@
+import Card from "./components/Cards/Card";
+import Contact from "./components/Contact/Contact";
 import Header from "./components/NavBar/Header";
 import MasterBanner from "./components/banner/MasterBanner";
-// import NavBar from "./components/NavBar/Header";
-import ProgressCard from "./components/Progress-content-card/ProgressCard";
-
 function App() {
-  return (
-    <>
-      <Header />
-      <MasterBanner />
-      <ProgressCard />
-    </>
-  );
+  <Header />;
+  return <MasterBanner />;
 }
 
 export default App;
